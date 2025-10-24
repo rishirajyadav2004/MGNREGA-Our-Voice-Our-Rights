@@ -7,16 +7,14 @@
     "react-dom": "^18.2.0",
     "axios": "^1.5.0",
     "chart.js": "^4.4.0",
-    "react-chartjs-2": "^5.2.0"
+    "react-chartjs-2": "^5.2.0",
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "devDependencies": {
-    "react-scripts": "5.0.1"
   },
   "browserslist": {
     "production": [
@@ -31,7 +29,7 @@
     ]
   },
   "engines": {
-    "node": ">=18.0.0",
+    "node": ">=18.0.0 <21",
     "npm": ">=9.0.0"
   }
 }
